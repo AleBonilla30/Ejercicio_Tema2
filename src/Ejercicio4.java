@@ -4,7 +4,7 @@ public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner Eje4= new Scanner(System.in);
         System.out.println("Ingrese los segundos: ");
-        int Seg= Integer.parseInt(Eje4.nextLine());
+        int Seg= Eje4.nextInt();
 
         int Minutos= Seg/ 60;
         int Horas= Minutos/ 60;
